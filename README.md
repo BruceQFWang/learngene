@@ -22,3 +22,6 @@ Make continual data (source domain) and target data(target domain) on the CIFAR1
     $ cd utils
     $ python data_cifar_mk.py --num_imgs_per_cat_train 600 --path [data-path-name]
     
+Make continual data (source domain) and target data(target domain) on the ImageNet-100 dataset:
+    $ cd utils
+    $ python data_imagenet_mk.py --path [data-path-name]
