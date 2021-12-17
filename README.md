@@ -57,3 +57,8 @@ Validate judgement criterion on the ImageNet100 dataset:
  
     $python inheritable_random_trainnum200_wEWC.py --batch_size 32 --epochs 30 --num_works 21 --num_works_tt 10 --num_imgs_per_cat_train [10 or 20] --path [name of inheritabledataset path]
  
+## Acknowledgment
+Our project references the codes in the following repos.
+- [CloserLookFewShot](https://github.com/wyharveychen/CloserLookFewShot)
+
+- [DeepEMD](https://github.com/icoz69/DeepEMD)
