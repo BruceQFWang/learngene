@@ -22,7 +22,7 @@ Make continual data (source domain) and target data(target domain) on the CIFAR1
     $ cd utils
     $ python data_cifar_mk.py --num_imgs_per_cat_train 600 --path [name of data path]
     
-Make continual data (source domain) and target data(target domain) on the ImageNet-100 dataset:
+Make continual data (source domain) and target data(target domain) on the ImageNet100 dataset:
 
     $ cd utils
     $ python data_imagenet_mk.py --path [name of data path]
@@ -33,7 +33,7 @@ Train collective model on the CIFAR100 dataset:
     $ cd collective model
     $ python val_lifelong_cifar100.py --batch_size 64 --epochs 100 --num_works 50 --path [name of continualdataset path]
 
-Train collective-model on the ImageNet-100 dataset:
+Train collective-model on the ImageNet100 dataset:
     
     $ cd collective model
     $ python val_lifelong_imagenet.py --batch_size 64 --epochs 100 --num_works 50 --path [name of continualdataset path]
@@ -43,7 +43,7 @@ Validate judgement criterion on the CIFAR100 dataset:
     $ cd collective model
     $ python val_lifelong_cifar100.py --batch_size 64 --epochs 100 --num_works 50 --judgement --path [name of continualdataset path]
 
-Validate judgement criterion on the ImageNet-100 dataset:
+Validate judgement criterion on the ImageNet100 dataset:
     
     $ cd collective model
     $ python val_lifelong_imagenet.py --batch_size 64 --epochs 100 --num_works 50 --judgement --path [name of continualdataset path]
@@ -53,4 +53,7 @@ Validate judgement criterion on the ImageNet-100 dataset:
  
     $python inheritable_cifar100_wEWC.py --batch_size 32 --epochs 30 --num_works 21 --num_works_tt 5  --num_imgs_per_cat_train [10 or 20] --path [name of inheritabledataset path]
 
-
+ Reconstruct individual model on the ImageNet100 dataset:
+ 
+    $python inheritable_random_trainnum200_wEWC.py --batch_size 32 --epochs 30 --num_works 21 --num_works_tt 10 --num_imgs_per_cat_train [10 or 20] --path [name of inheritabledataset path]
+ 
