@@ -28,3 +28,6 @@ Make continual data (source domain) and target data(target domain) on the ImageN
     $ python data_imagenet_mk.py --path [name of data path]
     
 ## Generate collective model
+Train collective-model on the CIFAR100 dataset:
+    $ cd collective-model
+    $ python val_lifelong_cifar100.py --batch-size 64 --epochs 50 --num_works 50 --path [name of continualdataset path]
