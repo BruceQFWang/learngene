@@ -20,9 +20,11 @@ Data division refers to [appendix](https://github.com/BruceQFWang/learngene/blob
 Make continual data (source domain) and target data(target domain) on the CIFAR100 dataset:
 
     $ cd utils
-    $ python data_cifar_mk.py --num_imgs_per_cat_train 600 --path [data-path-name]
+    $ python data_cifar_mk.py --num_imgs_per_cat_train 600 --path [name of data path]
     
 Make continual data (source domain) and target data(target domain) on the ImageNet-100 dataset:
 
     $ cd utils
-    $ python data_imagenet_mk.py --path [data-path-name]
+    $ python data_imagenet_mk.py --path [name of data path]
+    
+## Generate collective model
