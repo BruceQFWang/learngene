@@ -2,10 +2,11 @@
 
 If you use the code in this repo for your work, please cite the following bib entries:
 
-    @InProceedings{Zhang_2020_CVPR,
-    author = {Zhang, Chi and Cai, Yujun and Lin, Guosheng and Shen, Chunhua},
-    title = {DeepEMD: Few-Shot Image Classification With Differentiable Earth Mover's Distance and Structured Classifiers},
-    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month = {June},
-    year = {2020}
+    @misc{wang2021learngene,
+      title={Learngene: From Open-World to Your Learning Task}, 
+      author={Qiufeng Wang and Xin Geng and Shuxia Lin and Shiyu Xia and Lei Qi and Ning Xu},
+      year={2021},
+      eprint={2106.06788},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
     }
