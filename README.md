@@ -31,5 +31,5 @@ Make continual data (source domain) and target data(target domain) on the ImageN
 Train collective-model on the CIFAR100 dataset:
     
     $ cd collective-model
-    $ python val_lifelong_cifar100.py --batch-size 64 --epochs 50 --num_works 50 --path [name of continualdataset path]
+    $ python val_lifelong_cifar100.py --batch_size 64 --epochs 50 --num_works 50 --path [name of continualdataset path]
 
