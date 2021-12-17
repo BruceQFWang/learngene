@@ -16,3 +16,7 @@ Although deep learning has made significant progress on fixed large-scale datase
 
 ## Make dataset
 Data division refers to [appendix](https://github.com/BruceQFWang/learngene/blob/main/Learngene_Appendix.pdf)
+
+Make continual data (source domain) and target data(target domain) on the CIFAR100 dataset:
+
+    $ python data_cifar_mk.py --num_imgs_per_cat_train 600 --path [data-path-name]
