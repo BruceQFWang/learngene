@@ -17,7 +17,7 @@ Although deep learning has made significant progress on fixed large-scale datase
 <img src='paradigm.png' width='1280' height='520'>
 
 ## Make dataset
-Data division refers to [appendix](https://github.com/BruceQFWang/learngene/blob/main/Learngene_Appendix.pdf)
+Data division refers to [appendix](https://github.com/BruceQFWang/learngene/blob/main/Learngene_Appendix.pdf), e.g., [Cifar100_division](https://drive.google.com/file/d/1MKWi7dsjp3RQkKrcLV7ljZxJ4sm3YTL5/view?usp=sharing)
 
 Make continual data (source domain) and target data(target domain) on the CIFAR100 dataset:
 
