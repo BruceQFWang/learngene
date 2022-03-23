@@ -1,5 +1,7 @@
 # Learngene: From Open-World to Your Learning Task
 
+[bilibili](https://www.bilibili.com/video/BV1cF411b7oX?share_source=copy_web)
+
 If you use the code in this repo for your work, please cite the following bib entries:
 
     @misc{wang2021learngene,
