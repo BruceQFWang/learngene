@@ -39,27 +39,27 @@ python data_imagenet_mk.py --path $DATAPATH
 Train collective model on the CIFAR100 dataset:
     
 ```bash
-cd collective model
+cd collective-model
 python val_lifelong_cifar100.py --batch_size 64 --epochs 100 --num_works 50 --path [name of continualdataset path]
 ```
 Train collective-model on the ImageNet100 dataset:
 
 ```bash
-cd collective model
+cd collective-model
 python val_lifelong_imagenet.py --batch_size 64 --epochs 100 --num_works 50 --path [name of continualdataset path]
 ```
 
 Validate judgement criterion on the CIFAR100 dataset:
 
 ```bash
-cd collective model
+cd collective-model
 python val_lifelong_cifar100.py --batch_size 64 --epochs 100 --num_works 50 --judgement --path [name of continualdataset path]
 ```
 
 Validate judgement criterion on the ImageNet100 dataset:
     
 ```bash
-cd collective model
+cd collective-model
 python val_lifelong_imagenet.py --batch_size 64 --epochs 100 --num_works 50 --judgement --path [name of continualdataset path]
 ```
  
