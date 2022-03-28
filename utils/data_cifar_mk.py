@@ -323,6 +323,8 @@ def get_cifar100_dataloaders(num_tasks, batch_size, subtask_classes_num, num_img
     dataloader_train = {}
     dataloader_test = {}
 
+    dataloader_train_mm = None
+
     dir_name = 'data_cifar100'
     
     # continual data
@@ -364,7 +366,13 @@ if __name__ == '__main__':
     lifelong_train_loader = {}
     lifelong_test_loader = {}
     
-    train_ll_loader, train_mm_loader, test_loader = get_cifar100_dataloaders(num_tasks, \
-               batch_size, subtask_classes_num = 5, num_imgs_per_cat_train = args.num_imgs_per_cat_train, num_imgs_per_cat_test = 100, label_division = True)
+    train_ll_loader, train_mm_loader, test_loader = \
+        get_cifar100_dataloaders(
+            num_tasks,
+            batch_size, 
+            subtask_classes_num=5, 
+            num_imgs_per_cat_train=args.num_imgs_per_cat_train, 
+            num_imgs_per_cat_test=100, 
+            label_division=True)
 
 
