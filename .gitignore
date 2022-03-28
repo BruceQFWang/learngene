@@ -1,1 +1,3 @@
 utils/exp_data
+collective-model/val_save_results
+utils/__pycache__

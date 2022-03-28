@@ -14,6 +14,7 @@ import os
 import shutil
 import random
 import xlwt
+import os
 
 from torch.utils.data import DataLoader, ConcatDataset
 from torch.autograd import Variable
@@ -70,7 +71,7 @@ CIFAR100_TRAIN_STD = (0.2673342858792401, 0.2564384629170883, 0.2761504713256840
 
 # print result.txt
 RESULT_PATH_VAL = './val_save_results/' + 'cifar_' + str((datetime.datetime.now() + datetime.timedelta(hours=8)).strftime('%Y-%m-%d_%H:%M:%S'))
-
+os.makedirs(os.path.dirname(RESULT_PATH_VAL), exist_ok=True)
 
 record_1_epoch = dict()
 
