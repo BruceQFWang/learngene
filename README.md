@@ -1,6 +1,6 @@
 # Learngene: From Open-World to Your Learning Task
 
-[bilibili](https://www.bilibili.com/video/BV1cF411b7oX?share_source=copy_web)
+[bilibili](https://www.bilibili.com/video/BV1cF411b7oX?share_source=copy_web) [ArXiv](https://arxiv.org/pdf/2106.06788.pdf)
 
 If you use the code in this repo for your work, please cite the following bib entries:
 ```bibtex
