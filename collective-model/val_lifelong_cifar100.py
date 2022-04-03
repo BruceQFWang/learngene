@@ -102,7 +102,7 @@ def hook_fn_forward(module, input, output):
 # install hook_backward  
 def hook_fn_backward(module, grad_input, grad_output):
    
-    threshold1 = 5e-4
+    threshold1 = 5e-10
     lst_grad_in = list(grad_input)
 
     
