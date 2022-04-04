@@ -117,6 +117,7 @@ def hook_fn_backward(module, grad_input, grad_output):
             n3 = ingra_shape[2]
             n4 = ingra_shape[3]
             
+            # num_input = np.where(torch.abs(grad_input[1]).cuda().data.cpu().numpy() > threshold1)[0].shape[0]
             num_input = np.where(grad_input[1].cuda().data.cpu().numpy() > threshold1)[0].shape[0]
             
             mul = n1 * n2 * n3 * n4
